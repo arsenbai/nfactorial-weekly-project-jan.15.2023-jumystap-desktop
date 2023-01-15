@@ -733,7 +733,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 12px;
+    /* gap: 12px; */
 
     width: 351px;
     height: 84px;
@@ -1303,6 +1303,9 @@ body {
 }
 
 .job-keywords-for-search {
+    border: none;
+    align-self: center;
+    border-radius: 12px;
     order: 1;
     /* Description */
 
@@ -1310,10 +1313,15 @@ body {
 
     /* position: absolute; */
     position: relative;
-    width: 495px;
-    height: 22px;
-    left: 49px;
-    top: 14px;
+    /* width: 495px; */
+    width: 565px;
+    /* height: 22px; */
+    height: 45px;
+    /* left: 49px; */
+    left: 22px;
+    /* top: 14px; */
+    top: 0;
+    
 
     /* Body M 16 pt/Medium */
 
@@ -1348,6 +1356,7 @@ body {
 
 .btn-frame1-input-field {
     border: none;
+    color: white;
     /* Button Medium 50 px
 
     Buttons help people take action, such as sending an email, sharing a document, or liking a comment.
@@ -1693,16 +1702,17 @@ body {
     flex-direction: row;
 
 
-    justify-content: flex-end;
+    justify-content: space-between;
 
 
 
     align-items: flex-start;
 
     padding: 0px;
-    gap: 105px;
+    /* gap: 105px; */
 
-    width: 1280px;
+    /* width: 1280px; */
+    width: 1440px;
     height: 38px;
 
 
@@ -2020,7 +2030,7 @@ body {
     padding: 0px;
     gap: 16px;
 
-    width: 803px;
+    /* width: 803px; */
     height: 38px;
 
 
@@ -2057,7 +2067,7 @@ body {
     padding: 10px 12px;
     gap: 8px;
 
-    width: 803px;
+    /* width: 803px; */
     height: 38px;
 
     border-radius: 100px;
@@ -2073,7 +2083,7 @@ body {
     /* label-text */
 
 
-    width: 779px;
+    /* width: 779px; */
     height: 18px;
 
     /* Body S 14 pt/Medium */
@@ -2111,7 +2121,7 @@ body {
     padding: 0px;
     gap: 16px;
 
-    width: 272px;
+    /* width: 272px; */
     height: 38px;
 
 
@@ -2148,7 +2158,7 @@ body {
     padding: 10px 12px;
     gap: 8px;
 
-    width: 272px;
+    /* width: 272px; */
     height: 38px;
 
     border-radius: 100px;
@@ -2164,7 +2174,7 @@ body {
     /* label-text */
 
 
-    width: 248px;
+    /* width: 248px; */
     height: 18px;
 
     /* Body S 14 pt/Medium */
